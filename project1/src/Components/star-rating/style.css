@@ -1,0 +1,13 @@
+.star-rating{
+   margin-top: 150px;
+   font-size: larger;
+   font-weight: bolder;
+  
+
+}
+.active{
+    color: #fff700;
+}
+.inactive{
+    color: black;
+}
