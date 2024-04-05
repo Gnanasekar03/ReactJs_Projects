@@ -47,7 +47,7 @@ const RandomColor = () => {
             : handleCreateRandomRgbColor
         }
       >
-        Generate Random Color
+        Generate  Color
       </button>
       <div
         style={{
