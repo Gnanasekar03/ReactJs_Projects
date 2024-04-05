@@ -1,0 +1,12 @@
+.buttonHex :hover{
+    background-color: aqua;
+    color: black;
+}
+.buttonRgb :hover{
+    background-color: orchid;
+    color: black;
+}
+.buttonRandomColor :hover{
+    background-color: greenyellow;
+    color: black;
+}
