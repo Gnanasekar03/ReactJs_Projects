@@ -1,12 +1,26 @@
-.buttonHex :hover{
+.buttonHex:hover{
     background-color: aqua;
     color: black;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 20px;
 }
-.buttonRgb :hover{
+.buttonRgb:hover{
     background-color: orchid;
     color: black;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 20px;
+
 }
-.buttonRandomColor :hover{
+.ButtonRandomColor:hover{
     background-color: greenyellow;
     color: black;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 20px;
+
 }
