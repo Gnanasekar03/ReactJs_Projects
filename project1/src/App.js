@@ -2,8 +2,8 @@ import './App.css';
 import Accordian from './Components/Accordian';
 import ImageSlider from './Components/Image-slider';
 import LoadMoreData from './Components/load-more-data';
-import TreeView from './Components/load-more-data/tree-view';
-import menus from './Components/load-more-data/tree-view/data';
+import TreeView from './Components/tree-view';
+import menus from './Components/tree-view/data';
 import RandomColor from './Components/randomColor';
 import StarRating from './Components/star-rating';
 
