@@ -6,6 +6,7 @@ import TreeView from './Components/tree-view';
 import menus from './Components/tree-view/data';
 import RandomColor from './Components/randomColor';
 import StarRating from './Components/star-rating';
+import LightDarkMode from './Components/light-dark-mode';
 
 function App() {
   return (
@@ -27,7 +28,11 @@ function App() {
       {/* <LoadMoreData/> */}
 
        {/* Tree view component/menu UI component / recursive navigation menu */}
-      <TreeView menus={menus} />
+      {/* <TreeView menus={menus} /> */}
+
+        {/* light and dark theme switch */}
+      <LightDarkMode/>
+      
 
 
 
