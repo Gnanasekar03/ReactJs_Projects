@@ -10,6 +10,7 @@ import LightDarkMode from './Components/light-dark-mode';
 import QRCodeGenerator from './Components/Qr-code-generator';
 import ScrollIndicator from './Components/scoll-indicator';
 import UseWindowResizeTest from './Components/use-window-resize/Test';
+import TabTest from './Components/Custom-Tabs/tab-test';
 
 function App() {
   return (
@@ -26,19 +27,19 @@ function App() {
         page={"1"}
         limit={"10"}
       /> */}
-
            {/* Load more products component */}
       {/* <LoadMoreData/> */}
-
        {/* Tree view component/menu UI component / recursive navigation menu */}
       {/* <TreeView menus={menus} /> */}
-
         {/* light and dark theme switch */}
       {/* <LightDarkMode/> */}
       {/* <QRCodeGenerator/> */}
           {/* Scroll indicator component */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
-      <UseWindowResizeTest/>
+      {/* <UseWindowResizeTest/> */}
+
+        {/* Custom tabs component */}
+      <TabTest />
       
 
 
