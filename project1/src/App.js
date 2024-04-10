@@ -12,6 +12,7 @@ import ScrollIndicator from './Components/scoll-indicator';
 import UseWindowResizeTest from './Components/use-window-resize/Test';
 import TabTest from './Components/Custom-Tabs/tab-test';
 import ModalTest from './Components/Custom-modal-popup/modal-test';
+import GithubProfileFinder from './Components/github-profile-finder';
 
 function App() {
   return (
@@ -42,7 +43,12 @@ function App() {
         {/* Custom tabs component */}
       {/* <TabTest /> */}
        {/* Custom Modal Component */}
-      <ModalTest/>
+      {/* <ModalTest/> */}
+
+      
+      {/* Github profile finder */}
+      <GithubProfileFinder/>
+
       
 
 
