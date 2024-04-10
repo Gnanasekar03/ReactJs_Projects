@@ -8,6 +8,7 @@ import RandomColor from './Components/randomColor';
 import StarRating from './Components/star-rating';
 import LightDarkMode from './Components/light-dark-mode';
 import QRCodeGenerator from './Components/Qr-code-generator';
+import ScrollIndicator from './Components/scoll-indicator';
 
 function App() {
   return (
@@ -33,7 +34,9 @@ function App() {
 
         {/* light and dark theme switch */}
       {/* <LightDarkMode/> */}
-      <QRCodeGenerator/>
+      {/* <QRCodeGenerator/> */}
+          {/* Scroll indicator component */}
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
       
 
 
