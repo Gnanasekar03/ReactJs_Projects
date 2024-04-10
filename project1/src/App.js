@@ -11,6 +11,7 @@ import QRCodeGenerator from './Components/Qr-code-generator';
 import ScrollIndicator from './Components/scoll-indicator';
 import UseWindowResizeTest from './Components/use-window-resize/Test';
 import TabTest from './Components/Custom-Tabs/tab-test';
+import ModalTest from './Components/Custom-modal-popup/modal-test';
 
 function App() {
   return (
@@ -39,7 +40,9 @@ function App() {
       {/* <UseWindowResizeTest/> */}
 
         {/* Custom tabs component */}
-      <TabTest />
+      {/* <TabTest /> */}
+       {/* Custom Modal Component */}
+      <ModalTest/>
       
 
 

@@ -7,7 +7,7 @@
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: #baf005;
+    background-color: teal;
   }
   
   .modal-content {
@@ -18,7 +18,7 @@
     border: 1px solid red;
     width: 80%;
     animation-name: animateModal;
-    animation-duration: 0.5s;
+    animation-duration: 0.7s;
   }
   
   .close-modal-icon {
@@ -30,8 +30,8 @@
   
   .header {
     padding: 4px 16px;
-    background-color: #5cb85c;
-    color: #fff;
+    background-color: wheat;
+    color: black;
   }
   
   .body {
@@ -41,8 +41,8 @@
   
   .footer {
     padding: 2px 16px;
-    background-color: #5cb85c;
-    color: #fff;
+    background-color: wheat;
+    color: black;
   }
   
   @keyframes animateModal {
@@ -55,4 +55,14 @@
       top: 0;
       opacity: 1;
     }
+  }
+  button:hover{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  h2{
+    background: linear-gradient(to right, #40e0d0,black,#ff0080,yellow);
+    background-clip:text;
+    color: transparent;
   }
