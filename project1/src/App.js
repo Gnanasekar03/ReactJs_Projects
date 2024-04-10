@@ -9,6 +9,7 @@ import StarRating from './Components/star-rating';
 import LightDarkMode from './Components/light-dark-mode';
 import QRCodeGenerator from './Components/Qr-code-generator';
 import ScrollIndicator from './Components/scoll-indicator';
+import UseWindowResizeTest from './Components/use-window-resize/Test';
 
 function App() {
   return (
@@ -36,7 +37,8 @@ function App() {
       {/* <LightDarkMode/> */}
       {/* <QRCodeGenerator/> */}
           {/* Scroll indicator component */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+      <UseWindowResizeTest/>
       
 
 
