@@ -1,5 +1,4 @@
 import useWindowResize from ".";
-import "./style.css"
 
 export default function UseWindowResizeTest() {
   const windowSize = useWindowResize();
