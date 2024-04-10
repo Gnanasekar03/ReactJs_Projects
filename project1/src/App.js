@@ -7,6 +7,7 @@ import menus from './Components/tree-view/data';
 import RandomColor from './Components/randomColor';
 import StarRating from './Components/star-rating';
 import LightDarkMode from './Components/light-dark-mode';
+import QRCodeGenerator from './Components/Qr-code-generator';
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
       {/* <TreeView menus={menus} /> */}
 
         {/* light and dark theme switch */}
-      <LightDarkMode/>
+      {/* <LightDarkMode/> */}
+      <QRCodeGenerator/>
       
 
 
