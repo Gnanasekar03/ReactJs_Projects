@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Suggestions from "./sugest";
+import "./styles.css";
 
 export default function SearchAutocomplete() {
   const [loading, setLoading] = useState(false);
@@ -57,6 +58,7 @@ export default function SearchAutocomplete() {
 
   return (
     <div className="search-autocomplete-container">
+      <h2>Search-autocomplete</h2>
       {loading ? (
         <h1>Loading Data ! Please wait</h1>
       ) : (
