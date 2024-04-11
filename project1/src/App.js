@@ -17,6 +17,7 @@ import SearchAutocomplete from './Components/search-auto-complete-API/index.jsx'
 import TicTacToe from './Components/tic-tac-toe/index.jsx';
 import ScrollToTopAndBottom from './Components/Scroll-Top-to-Bottom/index.jsx';
 import UseFetchHookTest from './Components/usefetch/test.jsx';
+import UseOnclickOutsideTest from './Components/useOnclickOuside/test.jsx';
 
 function App() {
   return (
@@ -53,7 +54,9 @@ function App() {
         {/* Feature Flag IMplementation */}
         {/* <TicTacToe/> */}
         {/* <UseFetchHookTest/> */}
-        <ScrollToTopAndBottom/>
+        {/* <ScrollToTopAndBottom/> */}
+        <UseOnclickOutsideTest/>
+
 
 
         
