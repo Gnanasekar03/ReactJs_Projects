@@ -15,6 +15,8 @@ import ModalTest from './Components/Custom-modal-popup/modal-test';
 import GithubProfileFinder from './Components/github-profile-finder';
 import SearchAutocomplete from './Components/search-auto-complete-API/index.jsx';
 import TicTacToe from './Components/tic-tac-toe/index.jsx';
+import ScrollToTopAndBottom from './Components/Scroll-Top-to-Bottom/index.jsx';
+import UseFetchHookTest from './Components/usefetch/test.jsx';
 
 function App() {
   return (
@@ -41,20 +43,17 @@ function App() {
           {/* Scroll indicator component */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <UseWindowResizeTest/> */}
-
         {/* Custom tabs component */}
       {/* <TabTest /> */}
        {/* Custom Modal Component */}
       {/* <ModalTest/> */}
-
-      
       {/* Github profile finder */}
       {/* <GithubProfileFinder/> */}
-
       {/* <SearchAutocomplete/> */}
-
         {/* Feature Flag IMplementation */}
-        <TicTacToe/>
+        {/* <TicTacToe/> */}
+        {/* <ScrollToTopAndBottom/> */}
+        <UseFetchHookTest/>
 
         
      
