@@ -14,7 +14,6 @@ import TabTest from './Components/Custom-Tabs/tab-test';
 import ModalTest from './Components/Custom-modal-popup/modal-test';
 import GithubProfileFinder from './Components/github-profile-finder';
 import SearchAutocomplete from './Components/search-auto-complete-API/index.jsx';
-import FeatureFlagGlobalState from './Components/feature-flag/context/index.jsx';
 import TicTacToe from './Components/tic-tac-toe/index.jsx';
 
 function App() {
