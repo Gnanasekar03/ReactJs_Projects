@@ -52,8 +52,9 @@ function App() {
       {/* <SearchAutocomplete/> */}
         {/* Feature Flag IMplementation */}
         {/* <TicTacToe/> */}
-        {/* <ScrollToTopAndBottom/> */}
-        <UseFetchHookTest/>
+        {/* <UseFetchHookTest/> */}
+        <ScrollToTopAndBottom/>
+
 
         
      
