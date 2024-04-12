@@ -20,6 +20,7 @@ import UseFetchHookTest from './Components/usefetch/test.jsx';
 import UseOnclickOutsideTest from './Components/useOnclickOuside/test.jsx';
 import FeatureFlagGlobalState from './Components/feature-flag/context/index.jsx';
 import Stopwatch from './Components/stopwatch/index.jsx';
+import Login from './Components/login-page/login.jsx';
 
 function App() {
   return (
@@ -59,7 +60,8 @@ function App() {
         {/* <ScrollToTopAndBottom/> */}
         {/* <UseOnclickOutsideTest/> */}
         {/* <FeatureFlagGlobalState/> */}
-        <Stopwatch/>
+        {/* <Stopwatch/> */}
+        {/* <Login/> */}
 
 
 
