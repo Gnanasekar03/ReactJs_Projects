@@ -1,12 +1,12 @@
 import { useContext } from "react";
-import Accordian from "../accordian";
+import Accordian from "../Accordian";
 import LightDarkMode from "../light-dark-mode";
-import RandomColor from "../random-color";
-import TicTacToe from "../tic-tact-toe";
+import RandomColor from "../randomColor";
+import TicTacToe from "../tic-tac-toe";
 import TreeView from "../tree-view";
 import { FeatureFlagsContext } from "./context";
 import menus from "../tree-view/data";
-import TabTest from "../custom-tabs/tab-test";
+import TabTest from "../Custom-Tabs/tab-test";
 
 export default function FeatureFlags() {
   const { loading, enabledFlags } = useContext(FeatureFlagsContext);

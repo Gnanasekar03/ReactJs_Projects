@@ -18,9 +18,10 @@ import TicTacToe from './Components/tic-tac-toe/index.jsx';
 import ScrollToTopAndBottom from './Components/Scroll-Top-to-Bottom/index.jsx';
 import UseFetchHookTest from './Components/usefetch/test.jsx';
 import UseOnclickOutsideTest from './Components/useOnclickOuside/test.jsx';
-import FeatureFlagGlobalState from './Components/feature-flag/context/index.jsx';
 import Stopwatch from './Components/stopwatch/index.jsx';
 import Login from './Components/login-page/login.jsx';
+import FeatureFlagGlobalState from './Components/feature_flag/context/index.jsx';
+import FeatureFlags from './Components/feature_flag/index.jsx';
 
 function App() {
   return (
@@ -59,9 +60,11 @@ function App() {
         {/* <UseFetchHookTest/> */}
         {/* <ScrollToTopAndBottom/> */}
         {/* <UseOnclickOutsideTest/> */}
-        {/* <FeatureFlagGlobalState/> */}
         {/* <Stopwatch/> */}
         {/* <Login/> */}
+      <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState> 
 
 
 
